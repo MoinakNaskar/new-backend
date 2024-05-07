@@ -1,13 +1,1 @@
-require('dotenv').config()
-const express = require('express')
-const app = express()
-
-app.get('/',(req,res) => {
-    res.send('Hello World!')
-})
-app.listen(process.env.POR,()=>{
-    console.log(`Example app listening `)
-})
-
-
-
+require('dotenv').c
